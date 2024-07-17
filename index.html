@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Underwater Scene</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a-scene>
+        <a-sky color="#001f3f"></a-sky>
+        <a-light type="ambient" color="#ffffff"></a-light>
+        <a-light type="point" intensity="1" position="2 4 -3"></a-light>
+        <a-plane rotation="-90 0 0" width="30" height="30" color="#004d40"></a-plane>
+        <a-sphere position="0 1.25 -5" radius="1.25" color="#ff5722"></a-sphere>
+        <a-box position="-1 0.5 -3" rotation="0 45 0" depth="1" height="1" width="1" color="#00796b"></a-box>
+        <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#0288d1"></a-cylinder>
+        <a-torus position="0 1.5 -4" radius="1" tube="0.2" color="#8e24aa"></a-torus>
+        <a-camera position="0 1.6 0"></a-camera>
+    </a-scene>
+</body>
+</html>
